@@ -39,12 +39,12 @@
 	},
 	"extra": {
 	    "laravel": {
-		"providers": [
-		    "Webpatser\\Countries\\CountriesServiceProvider"
-		],
-		"aliases": {
-		    "Countries": "Webpatser\\Countries\\CountriesFacade"
-		}
+			"providers": [
+				"Webpatser\\Countries\\CountriesServiceProvider"
+			],
+			"aliases": {
+				"Countries": "Webpatser\\Countries\\CountriesFacade"
+			}
 	    }
 	}
 }
