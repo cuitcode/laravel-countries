@@ -17,7 +17,7 @@
 		"iso_3166_2",
 		"iso_3166_3"
 	],
-	"homepage" : "https://github.com/webpatser/laravel-countries",
+	"homepage" : "https://github.com/cuitcode/laravel-countries",
 	"license" : [
 		"MIT"
 	],
@@ -26,7 +26,7 @@
 	},
 	"autoload" : {
 		"psr-0" : {
-			"Webpatser\\Countries" : "src/"
+			"Cuitcode\\Countries" : "src/"
 		},
 		"classmap" : [
 			"src/commands"
@@ -34,16 +34,16 @@
 	},
 	"minimum-stability" : "dev",
 	"support" : {
-		"source" : "https://github.com/webpatser/laravel-countries",
-		"issues" : "https://github.com/webpatser/laravel-countries/issues"
+		"source" : "https://github.com/cuitcode/laravel-countries",
+		"issues" : "https://github.com/cuitcode/laravel-countries/issues"
 	},
 	"extra": {
 	    "laravel": {
 			"providers": [
-				"Webpatser\\Countries\\CountriesServiceProvider"
+				"Cuitcode\\Countries\\CountriesServiceProvider"
 			],
 			"aliases": {
-				"Countries": "Webpatser\\Countries\\CountriesFacade"
+				"Countries": "Cuitcode\\Countries\\CountriesFacade"
 			}
 	    }
 	}

@@ -1,6 +1,6 @@
 <?php
 
-namespace Webpatser\Countries;
+namespace Cuitcode\Countries;
 
 use Illuminate\Support\ServiceProvider;
 
